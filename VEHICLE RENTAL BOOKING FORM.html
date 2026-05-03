@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEHICLE RENTAL BOOKING FORM</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 16 — VEHICLE RENTAL BOOKING FORM</h1>
+        <hr>
+        <h2 align="center">Customer Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="vehicle_rental.html">
+            <label><b>Full Name :- </b></label>
+            <input type="text" placeholder="Customer Full Name">
+            <br><br>
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <label><b>Driving Licence No :- </b></label>
+            <input type="text" placeholder="DL Number">
+            <br><br>
+            <label><b>Aadhaar Number :- </b></label>
+            <input type="text" placeholder="12-digit Aadhaar" maxlength="12">
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Vehicle and Booking Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Vehicle Type :- </b></label>
+            <select name="vehicletype">
+                <option value="">-- Select Vehicle --</option>
+                <option value="Hatchback">Hatchback (Swift, i10)</option>
+                <option value="Sedan">Sedan (Dzire, Amaze)</option>
+                <option value="SUV">SUV (Innova, Creta)</option>
+                <option value="Luxury">Luxury Car</option>
+                <option value="MiniBus">Mini Bus / Tempo Traveller</option>
+                <option value="Bike">Bike / Two Wheeler</option>
+            </select>
+            <br><br>
+            <label><b>Pickup Location :- </b></label>
+            <input type="text" placeholder="Pickup Address / City">
+            <br><br>
+            <label><b>Drop Location :- </b></label>
+            <input type="text" placeholder="Drop Address / City">
+            <br><br>
+            <label><b>Pickup Date and Time :- </b></label>
+            <input type="datetime-local">
+            <br><br>
+            <label><b>Return Date and Time :- </b></label>
+            <input type="datetime-local">
+            <br><br>
+            <label><b>With Driver? :- </b></label>
+            <input type="radio" value="WithDriver" name="driver"> With Driver
+            &nbsp;
+            <input type="radio" value="SelfDrive" name="driver"> Self Drive
+            <br><br>
+            <label><b>Special Requirements :- </b></label>
+            <textarea rows="2" cols="40" placeholder="Any special needs like child seat, GPS, etc."></textarea>
+            <br><br>
+            <input type="submit" value="Book Vehicle">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+    <br>
+            <hr>
+           <p align="center">
+            <a href="TOUR PACKAGE BOOKING.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 16 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="EVENT REGISTRATION FORM.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

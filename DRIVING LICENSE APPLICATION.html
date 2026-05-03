@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRIVING LICENSE APPLICATION</title>
+</head>
+<body>
+  <div>
+        <h1 align="center">FORM 7 — DRIVING LICENSE APPLICATION FORM</h1>
+        <hr>
+        <h2 align="center">Applicant Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="driving_license.html">
+            <label><b>Full Name :- </b></label>
+            <input type="text" placeholder="Full Name as per Aadhaar">
+            <br><br>
+            <label><b>Date of Birth :- </b></label>
+            <input type="date">
+            <br><br>
+            <label><b>Gender :- </b></label>
+            <input type="radio" value="Male" name="gender"> Male
+            &nbsp;
+            <input type="radio" value="Female" name="gender"> Female
+            &nbsp;
+            <input type="radio" value="Other" name="gender"> Other
+            <br><br>
+            <label><b>Blood Group :- </b></label>
+            <select name="bloodgroup">
+                <option value="">-- Select --</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <br><br>
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <label><b>Aadhaar Number :- </b></label>
+            <input type="text" placeholder="12-digit Aadhaar" maxlength="12">
+            <br><br>
+            <label><b>Present Address :- </b></label>
+            <textarea rows="3" cols="40" placeholder="Current Full Address"></textarea>
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Licence Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Application Type :- </b></label>
+            <select name="apptype">
+                <option value="Learner">Learner's Licence</option>
+                <option value="Permanent">Permanent Licence</option>
+                <option value="Renewal">Renewal</option>
+                <option value="Duplicate">Duplicate</option>
+            </select>
+            <br><br>
+            <label><b>Vehicle Class :- </b></label>
+            <input type="checkbox" name="class" value="MC"> Motorcycle (MC)
+            &nbsp;
+            <input type="checkbox" name="class" value="LMV"> Light Motor Vehicle (LMV)
+            &nbsp;
+            <input type="checkbox" name="class" value="HMV"> Heavy Motor Vehicle (HMV)
+            <br><br>
+            <label><b>RTO Office :- </b></label>
+            <input type="text" placeholder="Nearest RTO Office">
+            <br><br>
+            <label><b>Do you wear Spectacles? :- </b></label>
+            <input type="radio" value="Yes" name="spectacles"> Yes
+            &nbsp;
+            <input type="radio" value="No" name="spectacles"> No
+            <br><br>
+            <label><b>Upload Photo :- </b></label>
+            <input type="file" accept="image/*">
+            <br><br>
+            <label><b>Upload Signature :- </b></label>
+            <input type="file" accept="image/*">
+            <br><br>
+            <label><b>Upload Age Proof :- </b></label>
+            <input type="file">
+            <br><br>
+            <label><b>Upload Address Proof :- </b></label>
+            <input type="file">
+            <br><br>
+            <input type="submit" value="Submit Application">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>  
+    <br>
+            <hr>
+           <p align="center">
+            <a href="VOTER ID REGISTRATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 7 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="BANK ACCOUNT OPENING.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

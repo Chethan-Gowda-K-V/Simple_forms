@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSURANCE CLAIM FORM</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 10 — INSURANCE CLAIM FORM</h1>
+        <hr>
+        <h2 align="center">Policy and Claimant Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="insurance_claim.html">
+            <label><b>Policy Number :- </b></label>
+            <input type="text" placeholder="Policy / Certificate Number">
+            <br><br>
+            <label><b>Policy Holder Name :- </b></label>
+            <input type="text" placeholder="Policy Holder Full Name">
+            <br><br>
+            <label><b>Claimant Name :- </b></label>
+            <input type="text" placeholder="Claimant's Full Name">
+            <br><br>
+            <label><b>Relation to Policy Holder :- </b></label>
+            <select name="relation">
+                <option value="Self">Self</option>
+                <option value="Spouse">Spouse</option>
+                <option value="Father">Father</option>
+                <option value="Mother">Mother</option>
+                <option value="Son">Son</option>
+                <option value="Daughter">Daughter</option>
+                <option value="Nominee">Legal Nominee</option>
+            </select>
+            <br><br>
+            <label><b>Type of Insurance :- </b></label>
+            <select name="insurancetype">
+                <option value="Health">Health Insurance</option>
+                <option value="Life">Life Insurance</option>
+                <option value="Vehicle">Vehicle Insurance</option>
+                <option value="Travel">Travel Insurance</option>
+                <option value="Property">Property Insurance</option>
+            </select>
+            <br><br>
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Claim Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Date of Incident :- </b></label>
+            <input type="date">
+            <br><br>
+            <label><b>Place of Incident :- </b></label>
+            <input type="text" placeholder="Location of Incident">
+            <br><br>
+            <label><b>Nature of Claim :- </b></label>
+            <select name="claimnature">
+                <option value="Accident">Accident</option>
+                <option value="Hospitalization">Hospitalization</option>
+                <option value="Death">Death</option>
+                <option value="Theft">Theft</option>
+                <option value="NaturalDisaster">Natural Disaster</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label><b>Description of Incident :- </b></label>
+            <textarea rows="4" cols="40" placeholder="Provide detailed description of the incident"></textarea>
+            <br><br>
+            <label><b>Estimated Claim Amount (Rs.) :- </b></label>
+            <input type="number" placeholder="Amount in Rupees">
+            <br><br>
+            <label><b>Hospital / Garage Name :- </b></label>
+            <input type="text" placeholder="Name and Address">
+            <br><br>
+            <label><b>Bank Account Number :- </b></label>
+            <input type="text" placeholder="For Claim Transfer">
+            <br><br>
+            <label><b>IFSC Code :- </b></label>
+            <input type="text" placeholder="IFSC Code">
+            <br><br>
+            <label><b>Upload Supporting Documents :- </b></label>
+            <input type="file" multiple>
+            <br><br>
+            <input type="submit" value="Submit Claim">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+    <br>
+            <hr>
+           <p align="center">
+            <a href="LOAN APPLICATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 10 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="LEAVE APPLICATION.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSPORT APPLICATION</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 5 — PASSPORT APPLICATION FORM</h1>
+        <hr>
+        <h2 align="center">Personal Information</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="PASSPORT APPLICATION.html">
+
+            <label for="Name"><b>Given Name :- </b></label>
+            <input type="text" placeholder="First Name / Given Name">
+            <br><br>
+
+            <label for="Surname"><b>Surname :- </b></label>
+            <input type="text" placeholder="Surname / Family Name">
+            <br><br>
+
+            <label for="DOB"><b>Date of Birth :- </b></label>
+            <input type="date">
+            <br><br>
+
+            <label for="POB"><b>Place of Birth :- </b></label>
+            <input type="text" placeholder="City, State">
+            <br><br>
+
+            <label for="Gender"><b>Gender :- </b></label>
+            <input type="radio" value="M" name="gender"> Male
+            &nbsp;
+            <input type="radio" value="F" name="gender"> Female
+            &nbsp;
+            <input type="radio" value="T" name="gender"> Transgender
+            <br><br>
+
+            <label for="status"><b>Marital Status :- </b></label>
+            <select name="status" id="status">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+                <option value="Widowed">Widowed</option>
+            </select>
+            <br><br>
+
+            <label for="nationality"><b>Nationality :- </b></label>
+            <input type="text" value="Indian" placeholder="Nationality">
+            <br><br>
+
+            <label for="Aadhaar"><b>Aadhaar Number :- </b></label>
+            <input type="text" placeholder="12-digit Aadhaar Number" maxlength="12">
+            <br><br>
+
+            <label for="PAN"><b>PAN Number :- </b></label>
+            <input type="text" placeholder="XXXXXXXXXX" maxlength="10">
+            <br><br>
+
+            <label for="Mobile"><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+
+            <label for="Email"><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Family Details</h2>
+            <hr width="30%">
+            <br>
+
+            <label for="FatherName"><b>Father's Name :- </b></label>
+            <input type="text" placeholder="Father's Full Name">
+            <br><br>
+
+            <label for="MotherName"><b>Mother's Name :- </b></label>
+            <input type="text" placeholder="Mother's Full Name">
+            <br><br>
+
+            <label for="SpouseName"><b>Spouse Name :- </b></label>
+            <input type="text" placeholder="Spouse Full Name (if married)">
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Passport Type and Address</h2>
+            <hr width="30%">
+            <br>
+
+            <label for="AppType"><b>Application Type :- </b></label>
+            <select name="apptype">
+                <option value="Fresh">Fresh Passport</option>
+                <option value="Renewal">Renewal</option>
+                <option value="Tatkal">Tatkal</option>
+            </select>
+            <br><br>
+
+            <label for="Booklet"><b>Passport Booklet Type :- </b></label>
+            <select name="booklet">
+                <option value="36">36 Pages</option>
+                <option value="60">60 Pages</option>
+            </select>
+            <br><br>
+
+            <label for="PresentAddress"><b>Present Address :- </b></label>
+            <textarea rows="3" cols="40" placeholder="House No, Street, City, State, Pincode"></textarea>
+            <br><br>
+
+            <label for="PermAddress"><b>Permanent Address :- </b></label>
+            <textarea rows="3" cols="40" placeholder="Permanent Address (if different from above)"></textarea>
+            <br><br>
+
+            <label for="Emergency"><b>Emergency Contact :- </b></label>
+            <input type="text" placeholder="Name and Phone Number">
+            <br><br>
+             <hr width="30%">
+             <h2 align="center">Document Upload</h2>
+            <hr width="30%">
+            <br>
+
+            <label for="Photo"><b>Upload Passport Photo :- </b></label>
+            <input type="file" accept="image/*">
+            <br><br>
+
+            <label for="DOBProof"><b>Upload Date of Birth Proof :- </b></label>
+            <input type="file">
+            <br><br>
+
+            <label for="AddressProof"><b>Upload Address Proof :- </b></label>
+            <input type="file">
+            <br><br>
+
+            <label for="IDProof"><b>Upload Identity Proof :- </b></label>
+            <input type="file">
+            <br><br>
+
+            <label for="OldPassport"><b>Upload Old Passport (for Renewal) :- </b></label>
+            <input type="file">
+            <br><br>
+
+            <input type="checkbox" name="declaration">
+            <b>I hereby declare that all the above information furnished is true and correct to the best of my knowledge.</b>
+            <br><br>
+
+            <input type="submit" value="Submit Application">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+
+        </form>
+    </div>
+     <br>
+            <hr>
+           <p align="center">
+            <a href="PROPERTY REGISTRATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 5 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="VOTER ID REGISTRATION.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

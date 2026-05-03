@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS PASS REGISTRATION FORM</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 1 — BUS PASS REGISTRATION FORM</h1>
+        <hr>
+        <h2 align="center">Applicant Personal Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="form1_bus_pass.html">
+
+            <label for="Name"><b>Full Name :- </b></label>
+            <input type="text" placeholder="Enter Full Name">
+            <br><br>
+
+            <label for="DOB"><b>Date of Birth :- </b></label>
+            <input type="date">
+            <br><br>
+
+            <label for="Gender"><b>Gender :- </b></label>
+            <input type="radio" value="Male" name="gender"> Male
+            &nbsp;
+            <input type="radio" value="Female" name="gender"> Female
+            &nbsp;
+            <input type="radio" value="Other" name="gender"> Other
+            <br><br>
+
+            <label for="Aadhaar"><b>Aadhaar Number :- </b></label>
+            <input type="text" placeholder="12-digit Aadhaar" maxlength="12">
+            <br><br>
+
+            <label for="Mobile"><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+
+            <label for="Email"><b>Email Address :- </b></label>
+            <input type="email" placeholder="example@email.com">
+            <br><br>
+
+            <label for="Address"><b>Address :- </b></label>
+            <textarea rows="3" cols="40" placeholder="House No, Street, City, Pincode"></textarea>
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Bus Pass Details</h2>
+            <hr width="30%">
+            <br>
+
+            <label for="PassType"><b>Pass Type :- </b></label>
+            <select name="passtype">
+                <option value="">-- Select Pass Type --</option>
+                <option value="Student">Student Pass</option>
+                <option value="SeniorCitizen">Senior Citizen Pass</option>
+                <option value="Monthly">Monthly Pass</option>
+                <option value="Quarterly">Quarterly Pass</option>
+                <option value="Annual">Annual Pass</option>
+            </select>
+            <br><br>
+
+            <label for="FromStop"><b>From Stop :- </b></label>
+            <input type="text" placeholder="Starting Bus Stop">
+            <br><br>
+
+            <label for="ToStop"><b>To Stop :- </b></label>
+            <input type="text" placeholder="Destination Bus Stop">
+            <br><br>
+
+            <label for="Route"><b>Route Number :- </b></label>
+            <input type="text" placeholder="e.g. 10C">
+            <br><br>
+
+            <label for="StartDate"><b>Pass Start Date :- </b></label>
+            <input type="date">
+            <br><br>
+
+            <label for="Institution"><b>Institution / Employer :- </b></label>
+            <input type="text" placeholder="School / College / Company Name">
+            <br><br>
+
+            <label for="Photo"><b>Upload Photo :- </b></label>
+            <input type="file" accept="image/*">
+            <br><br>
+
+            <label for="IDProof"><b>Upload ID Proof :- </b></label>
+            <input type="file">
+            <br><br>
+
+            <input type="checkbox" name="agree">
+            <b>I agree to the Terms and Conditions</b>
+            <br><br>
+
+            <input type="submit" value="Submit Application">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+
+        </form>
+
+        <br><br>
+        <hr>
+        <p align="center">
+            <b>[ FORM 1 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="MARRIAGE CERTIFICATE.html">Next Form &rarr;</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAILWAY RESERVATION</title>
+</head>
+<body>
+ <div>
+        <h1 align="center">FORM 14 — RAILWAY RESERVATION FORM</h1>
+        <hr>
+        <h2 align="center">Journey Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="railway_reservation.html">
+            <label><b>From Station :- </b></label>
+            <input type="text" placeholder="Departure Station Name / Code">
+            <br><br>
+            <label><b>To Station :- </b></label>
+            <input type="text" placeholder="Destination Station Name / Code">
+            <br><br>
+            <label><b>Date of Journey :- </b></label>
+            <input type="date">
+            <br><br>
+            <label><b>Train Number / Name :- </b></label>
+            <input type="text" placeholder="Train No. and Name (if known)">
+            <br><br>
+            <label><b>Class of Travel :- </b></label>
+            <select name="travelclass">
+                <option value="SL">Sleeper (SL)</option>
+                <option value="3A">3rd AC (3A)</option>
+                <option value="2A">2nd AC (2A)</option>
+                <option value="1A">1st AC (1A)</option>
+                <option value="CC">AC Chair Car (CC)</option>
+                <option value="GN">General (GN)</option>
+            </select>
+            <br><br>
+            <label><b>Quota :- </b></label>
+            <select name="quota">
+                <option value="GN">General (GN)</option>
+                <option value="SC">Senior Citizen</option>
+                <option value="LQ">Ladies Quota</option>
+                <option value="TQ">Tatkal</option>
+                <option value="PT">Premium Tatkal</option>
+            </select>
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Passenger 1 Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Name :- </b></label>
+            <input type="text" placeholder="Passenger 1 Full Name">
+            <br><br>
+            <label><b>Age :- </b></label>
+            <input type="number" placeholder="Age" min="0" max="120">
+            <br><br>
+            <label><b>Gender :- </b></label>
+            <input type="radio" value="Male" name="pax1gender"> Male
+            &nbsp;
+            <input type="radio" value="Female" name="pax1gender"> Female
+            <br><br>
+            <label><b>Berth Preference :- </b></label>
+            <select name="pax1berth">
+                <option value="NP">No Preference</option>
+                <option value="Lower">Lower</option>
+                <option value="Middle">Middle</option>
+                <option value="Upper">Upper</option>
+                <option value="SL">Side Lower</option>
+                <option value="SU">Side Upper</option>
+            </select>
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Contact and Payment</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <label><b>Auto Upgrade :- </b></label>
+            <input type="checkbox" name="upgrade" value="yes"> Opt for Auto Upgrade if available
+            <br><br>
+            <label><b>Payment Mode :- </b></label>
+            <select name="payment">
+                <option value="UPI">UPI</option>
+                <option value="Credit">Credit Card</option>
+                <option value="Debit">Debit Card</option>
+                <option value="NetBanking">Net Banking</option>
+                <option value="Wallet">Wallet</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Book Ticket">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+   <br>
+            <hr>
+           <p align="center">
+            <a href="VACCINATION REGISTRATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 14 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="TOUR PACKAGE BOOKING.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

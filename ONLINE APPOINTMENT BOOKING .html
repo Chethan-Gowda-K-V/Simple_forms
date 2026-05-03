@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE APPOINTMENT BOOKING</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 12 — ONLINE APPOINTMENT BOOKING FORM</h1>
+        <hr>
+        <h2 align="center">Your Details</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="appointment_booking.html">
+            <label><b>Full Name :- </b></label>
+            <input type="text" placeholder="Your Full Name">
+            <br><br>
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <label><b>Age :- </b></label>
+            <input type="number" placeholder="Age">
+            <br><br>
+            <label><b>Gender :- </b></label>
+            <input type="radio" value="Male" name="gender"> Male
+            &nbsp;
+            <input type="radio" value="Female" name="gender"> Female
+            &nbsp;
+            <input type="radio" value="Other" name="gender"> Other
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Appointment Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Department / Service :- </b></label>
+            <select name="department">
+                <option value="">-- Select Department --</option>
+                <option value="GeneralMedicine">General Medicine</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Orthopaedics">Orthopaedics</option>
+                <option value="Dermatology">Dermatology</option>
+                <option value="Paediatrics">Paediatrics</option>
+                <option value="Gynaecology">Gynaecology</option>
+                <option value="Government">Government Service</option>
+                <option value="Legal">Legal Consultation</option>
+            </select>
+            <br><br>
+            <label><b>Doctor / Officer Name :- </b></label>
+            <input type="text" placeholder="Preferred Doctor / Officer">
+            <br><br>
+            <label><b>Preferred Date :- </b></label>
+            <input type="date">
+            <br><br>
+            <label><b>Preferred Time Slot :- </b></label>
+            <select name="timeslot">
+                <option value="9to10">09:00 AM - 10:00 AM</option>
+                <option value="10to11">10:00 AM - 11:00 AM</option>
+                <option value="11to12">11:00 AM - 12:00 PM</option>
+                <option value="2to3">02:00 PM - 03:00 PM</option>
+                <option value="3to4">03:00 PM - 04:00 PM</option>
+                <option value="4to5">04:00 PM - 05:00 PM</option>
+            </select>
+            <br><br>
+            <label><b>Purpose / Complaint :- </b></label>
+            <textarea rows="3" cols="40" placeholder="Briefly describe your purpose or complaint"></textarea>
+            <br><br>
+            <label><b>Previous Visit? :- </b></label>
+            <input type="radio" value="Yes" name="previousvisit"> Yes
+            &nbsp;
+            <input type="radio" value="No" name="previousvisit"> No (New Patient)
+            <br><br>
+            <label><b>Upload Previous Reports :- </b></label>
+            <input type="file" multiple>
+            <br><br>
+            <input type="submit" value="Book Appointment">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+    <br>
+            <hr>
+           <p align="center">
+            <a href="LEAVE APPLICATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 12 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="VACCINATION REGISTRATION.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>

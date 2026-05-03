@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANK ACCOUNT OPENING</title>
+</head>
+<body>
+    <div>
+        <h1 align="center">FORM 8 — BANK ACCOUNT OPENING FORM</h1>
+        <hr>
+        <h2 align="center">Personal Details (KYC)</h2>
+        <hr width="30%">
+        <br><br>
+        <form action="bank_account.html">
+            <label><b>Full Name :- </b></label>
+            <input type="text" placeholder="Full Name as per PAN Card">
+            <br><br>
+            <label><b>Date of Birth :- </b></label>
+            <input type="date">
+            <br><br>
+            <label><b>Gender :- </b></label>
+            <input type="radio" value="Male" name="gender"> Male
+            &nbsp;
+            <input type="radio" value="Female" name="gender"> Female
+            <br><br>
+            <label><b>PAN Number :- </b></label>
+            <input type="text" placeholder="XXXXXXXXXX" maxlength="10">
+            <br><br>
+            <label><b>Aadhaar Number :- </b></label>
+            <input type="text" placeholder="12-digit Aadhaar" maxlength="12">
+            <br><br>
+            <label><b>Occupation :- </b></label>
+            <select name="occupation">
+                <option value="">-- Select --</option>
+                <option value="Salaried">Salaried</option>
+                <option value="SelfEmployed">Self Employed</option>
+                <option value="Business">Business</option>
+                <option value="Student">Student</option>
+                <option value="Retired">Retired</option>
+                <option value="Homemaker">Homemaker</option>
+            </select>
+            <br><br>
+            <label><b>Annual Income :- </b></label>
+            <select name="income">
+                <option value="below1">Below Rs. 1 Lakh</option>
+                <option value="1to5">1 - 5 Lakhs</option>
+                <option value="5to10">5 - 10 Lakhs</option>
+                <option value="above10">Above 10 Lakhs</option>
+            </select>
+            <br><br>
+            <label><b>Mobile Number :- </b></label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX">
+            <br><br>
+            <label><b>Email Address :- </b></label>
+            <input type="email" placeholder="email@example.com">
+            <br><br>
+            <label><b>Residential Address :- </b></label>
+            <textarea rows="3" cols="40" placeholder="Complete Home Address"></textarea>
+            <br><br>
+            <hr width="30%">
+            <h2 align="center">Account Details</h2>
+            <hr width="30%">
+            <br><br>
+
+            <label><b>Account Type :- </b></label>
+            <select name="accounttype">
+                <option value="Savings">Savings Account</option>
+                <option value="Current">Current Account</option>
+                <option value="Salary">Salary Account</option>
+                <option value="FD">Fixed Deposit</option>
+                <option value="RD">Recurring Deposit</option>
+            </select>
+            <br><br>
+            <label><b>Branch Name :- </b></label>
+            <input type="text" placeholder="Preferred Branch Name and City">
+            <br><br>
+            <label><b>Nominee Name :- </b></label>
+            <input type="text" placeholder="Nominee Full Name">
+            <br><br>
+            <label><b>Nominee Relation :- </b></label>
+            <select name="relation">
+                <option value="Spouse">Spouse</option>
+                <option value="Father">Father</option>
+                <option value="Mother">Mother</option>
+                <option value="Son">Son</option>
+                <option value="Daughter">Daughter</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label><b>Initial Deposit (Rs.) :- </b></label>
+            <input type="number" placeholder="Amount in Rupees">
+            <br><br>
+            <label><b>Upload Photo :- </b></label>
+            <input type="file" accept="image/*">
+            <br><br>
+            <label><b>Upload PAN Card :- </b></label>
+            <input type="file">
+            <br><br>
+            <label><b>Upload Aadhaar Copy :- </b></label>
+            <input type="file">
+            <br><br>
+            <input type="submit" value="Submit Application">
+            &nbsp;&nbsp;
+            <input type="reset" value="Clear Form">
+        </form>
+    </div>
+<br>
+            <hr>
+           <p align="center">
+            <a href="DRIVING LICENSE APPLICATION.html">&larr; Previous Form</a>
+            &nbsp;&nbsp;&nbsp;
+            <b>[ FORM 8 of 23 ]</b>
+            &nbsp;&nbsp;&nbsp;
+            <a href="LOAN APPLICATION.html">Next Form &rarr;</a>
+           </p>
+</body>
+</html>
